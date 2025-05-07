@@ -1,6 +1,6 @@
 <!DOCTYPE HMTL>
-<html>
 
+<html>
 <head>
     <meta charset="utf-8">  
     <meta name="viewport" content="width=device-width">
@@ -15,27 +15,35 @@
 
     <style>
         body{
-            background: orange
+            background: rgb(170, 225, 153)
     }
 
     </style>
 </head>
 
 <body>
-
+<main>
 <h1>Portfolio De Shostin</h1>
+
+<nav>
+    <a href="#Experiencia">Experiencia</a>
+    <a href="#Mis Tecnologias Favoritas">Mis Tecnologias Favoritas</a>
+    <a href="https://www.instagram.com/goldito_gaming/"
+    target="_blank"
+    rel="noreferrer">Mi Instagram</a>
+</nav>
 <!--hola esto es un mentario-->
 
 <p>+1 un año de experiencia como <strong>Desarrollador Web</strong>. Mi animal favorito es:</p>
-
+<a  download href="images/perro.jpg.jpg"> 
 <img title = "Foto de un perro"
 alt = "una fotografia de un perro blanco con la lenguita afuera" 
 src = "images/perro.jpg.jpg"
 width="600"
 height="400"
->
+></a>
 
-<h2>Experiencia</h2>
+<h2><div id="Experiencia"> Experiencia</h2>
 
 <ul>
 <li> Clucking Bell 2018 - 2019 </li>
@@ -43,6 +51,134 @@ height="400"
 </ul>
 
 </body>
+
+    <section>
+        <article>
+        <header>
+         <h3>Pagina Web De Comida</h3>
+        </header>
+        <p>Desarrollo de una pagina web de comida con un tema amigable y sencillo de entender
+        apareciendo las opciones de lo que se va a comprar y una interfaz donde podrias poner tu login
+        <small>user and password.</small> 
+        </p>
+    </article>
+<aside>
+<header>
+<h4><div id="Mis Tecnologias Favoritas"> Mis Tecnologias Favoritas</h4>
+</header>
+
+ <!-tambien se puede usar ol para agrupar por numero->
+<ul> 
+    <li>HTML        
+    <li>CSS
+    <li>PYTHON
+    <li>JAVASCRIPT</li>
+
+
+</ul>
+
+<section>
+    <h2>Formulario De Contacto</h2>
+    <form method="get" action="/">
+    <fieldset>
+        <legend>Informacion Personal</legend>
+        <label Style ="display: block;">Nombre:
+        <input type="text" 
+        id="name" 
+        name="name" 
+        placeholder="Juan G." required>
+        </label>
+    
+        <label Style ="display: block;">Correo:
+            <input type="email"  
+            name="email" 
+            placeholder="Usuario123@gmail" required>
+            </label>
+    </fieldset>
+
+    <fieldset>
+        <Legend>Informacion Adicional</Legend>
+        <label>Telefono
+        <input type="tel" name="tel" placeholder="+12345678910" required pattern="[0-9]" >
+    </label>
+    </fieldset>
+    <input type="submit" value="Enviar Contacto">
+
+    <fieldset>
+    <legend>Otros</legend>
+    
+    <datalist id="puestos">
+        <option value="Cocinero"></option>
+        <option value="Repartidor"></option>
+        <option value="Suministrador"></option>
+    </datalist>
+    <label>Para que puesto quisieras aplicar?
+    <input list="puestos" name="puestos">
+</label>
+     </fieldset>
+
+     </form>
+ </section>
+</main>
+</aside>
+    <article>
+        <footer>
+        <h5>Al final de la pagina se puede ver un apartado donde se muestran diferentes opciones:</h5>
+       <ul>   
+        <li>Ayuda 
+        <li>Preguntas Frecuentes
+        <li>Sugerencias
+
+            <a href="mailto:mpena5140@gmail.com">Enviame Un Correo</a>
+            <a href="tel:+14076396397">Llamame</a>
+
+        </footer>
+    </ul>  
+    </p>
+    </article>
+
+
+
+    </section>
+
+
+<div id="id"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
